@@ -10,7 +10,7 @@ def isSubsequence(self,s, t):
                 a+=1
                 count+=1
         return count ==len(s)
-#the error bargin become smaller and smaller
+#the error margin become smaller and smaller
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
         sp = tp = 0
