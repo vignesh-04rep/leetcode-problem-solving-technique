@@ -1,0 +1,40 @@
+I don'know about the queue and dequeue so I need to practice that first for solving this problem
+
+yeah I done some of the Geeks for geeks so that now I know about the constructors and queue and dequeue problems
+
+for queue can be implement by using list or collection.queue or Queue.queue 
+
+so example problems for implementing the queue 
+ 
+first by using list
+	
+	queue=[]
+	queue.append(1)
+	queue.append(2)
+	queue.append(3)
+	print(queue)	
+	queue.pop(1)
+	print(queue)
+	[1,2,3]
+	[2,3] 
+	so why can't most them not using list to do queue because it has slight use time comple than compare to other 
+
+next using collection
+	
+	from collection import deque
+	 
+	q=deque()
+	q.append(1)
+	q.popleft()
+
+next using Queue.queue
+
+        from Queue import queue
+	q=queue()
+	q.put(1)
+	q.get(1)
+
+
+these are the thing which I need to know 
+but one thing I need to know was the class and the init function 
+yeah peace
